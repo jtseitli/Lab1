@@ -11,7 +11,10 @@ int main()
 
     A = 3;
 
-    cout << A << endl;
+    cout << "Please enter a value for A: ";
+    cin >> A;
+
+    cout << "A= "<< A << endl;
 
 }
 
