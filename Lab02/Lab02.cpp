@@ -9,6 +9,9 @@ int main()
 {
     float A;
 
+    float B;
+
+
     A = 3;
 
     cout << "Please enter a value for A: ";
@@ -16,6 +19,9 @@ int main()
 
     cout << "A= "<< A << endl;
 
+    B = 2 * (A + 15);
+
+    cout << "and B = " << B << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
