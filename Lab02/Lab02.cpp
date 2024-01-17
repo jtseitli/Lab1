@@ -8,20 +8,22 @@ using namespace std;
 int main()
 {
     float A;
-
     float B;
+    float X;;
 
-
-    A = 3;
-
+    cout << "Hello my name is Josh and I'm going to solve the equation for x: " << endl;
+    cout << "Ax + B = 4" << endl;
     cout << "Please enter a value for A: ";
     cin >> A;
+    cout << "Please enter a value for B: ";
+    cin >> B;
+    
+    cout << endl;
 
-    cout << "A= "<< A << endl;
+    cout << "Ok! Let me do some mental math to solve " << A << "x + " << B << " = 4..." << endl;
 
-    B = 2 * (A + 15);
 
-    cout << "and B = " << B << endl;
+    cout << "The answer is: " << (4 - B)/A << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
