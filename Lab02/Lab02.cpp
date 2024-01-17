@@ -7,12 +7,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    float A;
 
-    cout << endl;
+    A = 3;
 
-    cout << "This is CGT 215!" << endl;
-
+    cout << A << endl;
 
 }
 
